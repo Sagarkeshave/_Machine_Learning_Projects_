@@ -73,15 +73,15 @@ Here is list for every project in this repository and link to introduction of pr
 * On basis of person's health records predict if person have heart disease or not
 * In this we used 4 different models to see initial accuracy (ie. SVM, RandomForestClassifier, Adaboost, KNN)
 >* Out of this we we picked top two for hypertunning( RandomForest and Adaboost) and Adaboost got 91% accuracy_score
-* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/blob/main/Classification/Heart_Disease_Prediction/Heart_disease_pred.ipynb)
-
+* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/tree/main/Classification/Heart_Disease_Prediction)
+  
 <h4 id='Titanic'> Titanic Survial Predictor</h4>
 
 * This project is to predict the passangers in titanic will survive or not on the basis of given data.
 * In this notebook we've used Random Forest,KNN and GradientBoost classifier and got better accuracy on these top 2 models i.e.GradientBoostClassifier and RandomForestlassifier.
 * After Hypertunning got an accuracy 78.73% for Gradient Boosting.
 >* Hypertunnig parameters for GBC learning_rate= 0.01, max_depth= 4, max_features= 16, min_samples_leaf= 1, min_samples_split=20, n_estimators= 500.
-* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/blob/main/Classification/Titanic_Survival_prediction/Survival_Prediction_Titanic.ipynb)
+* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/tree/main/Classification/Titanic_Survival_prediction)
 
 ### Regression:-
 ------------------------------------------------------------------
@@ -91,8 +91,7 @@ Here is list for every project in this repository and link to introduction of pr
 * Here we used RandomForestRegressor and got pretty good score of 85% r^2 
 * so after hypertuning we got best_params n_estimators=90, min_samples_leaf=1, min_samples_split=14,max_features=0.5, n_jobs=-1, max_samples=None 
 * with this we got 95% and 88% r^2 on train and test set respectively
-* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/blob/main/Regression/Price_Prediction_BullDozer/Notebooks/Price%20Prediction%20-%20BullDozer%20.ipynb)
-
+* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/tree/main/Regression/Price_Prediction_BullDozer)
 
 <h4 id='House-price'> House Price Predictor</h4>
 
@@ -100,7 +99,7 @@ Here is list for every project in this repository and link to introduction of pr
 * Here we used Lasso, randomforest and XGBoost for initial r^2 score
 * Then we hypertuined XGB cause it had bit more r^2 and got gamma= 0, learning_rate= 0.05, max_depth =6, reg_lambda= 0, subsample=0.9, colsample_bytree=0.5
 * with this params I got 98% and 85% r^2 on train and validation set respectively
-* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/blob/main/Regression/House_price_prediction/Notebooks/House_Price_preds.ipynb)
+* Get source code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/tree/main/Regression/House_price_prediction)
 
 
 <h4 id='Flight-fare'> Flight Fare Prediction <h4>
@@ -108,23 +107,5 @@ Here is list for every project in this repository and link to introduction of pr
 * Predicting fare of flight based on given information
 * Trained Lasso, Gradient Bosst, Random Forest on full data
 * Random forest had best 80 r2 so took this for hyperparameter tuning got 83 r2
-
-  
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-<!-- Classification Links-->
-[Telco-churn]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Telco_churn_prediction
-[Titanic]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Titanic_Survival_prediction
-[Heart-dis]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Classification_Problems/Prediction_of_heart_disease
-
-<!-- regression Links-->
-[Bulldozers]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Regression_Problems/Bulldozers_price_prediction_project
-[House-price]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Regression_Problems/House_price_prediction
-[Flight-fare]: https://github.com/AdiShirsath/Machine_learning_projects/tree/main/Regression_Problems/Flight_Fare_Prediction
+* Source Code [Visit](https://github.com/Sagarkeshave/_Machine_Learning_Projects_/tree/main/Regression/Flight_Fare_Prediction)
+ 
