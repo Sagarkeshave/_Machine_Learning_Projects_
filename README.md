@@ -1,9 +1,7 @@
-# _Machine_Learning_Projects_
 
+## Machine_learning_projects
 
-# Machine_learning_projects
-
-## Overview:-
+### Overview:-
 * This repository contains projects on ML Classification and Regression
 >* [Classification](https://en.wikipedia.org/wiki/Statistical_classification):-  classification is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, 
 on the basis of a training set of data containing observations (or instances) whose category membership is known.
